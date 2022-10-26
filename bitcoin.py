@@ -3,9 +3,9 @@ import pandas as pd
 from pycoingecko import CoinGeckoAPI
 from datetime import datetime, timedelta
 cg = CoinGeckoAPI()
-
+st.set_page_config(
 layout="wide"
-
+)
 st.title('Crypto Investment Calculator')
 st.write('Eyeryone Enjoys a Good What if Scenario! Choose a Date You Wish You Bought Bitcoin or Ethereum')
 st.write('---')
