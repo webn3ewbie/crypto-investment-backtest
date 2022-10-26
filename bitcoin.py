@@ -30,7 +30,7 @@ with col2:
     current_USD = total_eth * eth_current
     perc_change = (current_USD - ORG_USD)/(ORG_USD)*100
     usd_diff = current_USD - ORG_USD
-    st.subheader('## Current Values')
+    st.write('## Current Values')
     st.write("Your Initial Investment is Currently Worth: ***${:,.2f}***".format(round(current_USD,2)))
     st.write("Which is a percentage change of ***{:,.2f}%***".format(round(perc_change, 2),))
 if usd_diff == 0:
@@ -38,7 +38,7 @@ if usd_diff == 0:
 elif usd_diff <= 0:
    st.write('''# You Would Have Lost''')
 else:
-   st.subheader('''# You Could have Made''') 
+   st.write('''# You Could have Made''') 
 st.subheader('***${:,.2f}***'.format(abs(round(usd_diff,2)),))
 
 now = datetime.now()
