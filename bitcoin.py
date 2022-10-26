@@ -38,7 +38,7 @@ if usd_diff == 0:
 elif usd_diff <= 0:
    st.write('''# You Would Have Lost''')
 else:
-   st.write('''# You Could have Made''') 
+   st.write('''## You Could have Made''') 
 st.subheader('***${:,.2f}***'.format(abs(round(usd_diff,2)),))
 
 now = datetime.now()
