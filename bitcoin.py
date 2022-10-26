@@ -7,11 +7,11 @@ st.set_page_config(
 layout="wide"
 )
 st.title('Crypto Investment Calculator')
-st.write("""Eyeryone Enjoys a Good What if Scenario! Choose a Date You Wish You Bought Ethereum or Bitcoin
-##Want to learn more?
-        - Check out the repo [Here](https://github.com/webn3ewbie/crypto-investment-backtest)
-        - Connect with me on [LinkedIn](https://www.linkedin.com/in/joseph-biancamano/)
-        - Ask a question in the Streamlit community [forums](https://discuss.streamlit.io)
+st.write("""Eyeryone Enjoys a Good What if Scenario! Choose a Date You Wish You Bought Ethereum or Bitcoin.
+Want to learn more?
+Check out the repo [Here](https://github.com/webn3ewbie/crypto-investment-backtest)
+Connect with me on [LinkedIn](https://www.linkedin.com/in/joseph-biancamano/)
+Ask a question in the Streamlit community [forums](https://discuss.streamlit.io)
          """)
 st.write('---')
 st.write('## Choose Date and Amount')
