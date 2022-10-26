@@ -7,7 +7,7 @@ st.set_page_config(
 layout="wide"
 )
 st.title('Crypto Investment Calculator')
-st.write('Eyeryone Enjoys a Good What if Scenario! Choose a Date You Wish You Bought Bitcoin or Ethereum')
+st.write('Eyeryone Enjoys a Good What if Scenario! Choose a Date You Wish You Bought Ethereum or Bitcoin')
 st.write('---')
 st.write('## Choose Date and Amount')
 today = datetime.utcnow().date()
