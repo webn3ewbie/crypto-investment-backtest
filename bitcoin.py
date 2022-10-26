@@ -74,7 +74,7 @@ with col2:
     current_USD = total_bitcoin * bitcoin_current
     perc_change = (current_USD - ORG_USD)/(ORG_USD)*100
     usd_diff = current_USD - ORG_USD
-    st.subheader('## Current Values')
+    st.write('## Current Values')
     st.write("Your Initial Investment is Currently Worth: ***${:,.2f}***".format(round(current_USD,2)))
     st.write("Which is a percentage change of ***{:,.2f}%***".format(round(perc_change, 2),))
 
