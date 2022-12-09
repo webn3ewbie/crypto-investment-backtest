@@ -7,7 +7,7 @@ st.set_page_config(
 layout="wide"
 )
 st.title('Crypto Historical Investment Calculator')
-st.write("""  ### This calculator allows you to explore how much a hypothetical historical investment in crypto assests would be worth today.
+st.write(""" This calculator allows you to explore how much a hypothetical historical investment in crypto assests would be worth today.
 Want to learn more?
 Check out the repo [Here](https://github.com/webn3ewbie/crypto-investment-backtest)
 Connect with me on [LinkedIn](https://www.linkedin.com/in/joseph-biancamano/)
