@@ -17,7 +17,7 @@ st.write('---')
 st.write('## Choose Date and Amount')
 today = datetime.utcnow().date()
 previous_day = today - timedelta(days=1)
-HIST_DATE = st.date_input("Date: ", value=previous_day, min_value=datetime(2009,1,1), max_value=previous_day)
+HIST_DATE = st.date_input("Date: ", value=previous_day, min_value=datetime(2012,1,1), max_value=previous_day)
 ORG_USD = st.number_input("USD Amount: ", min_value=1, max_value=999999999)
 eth_current = cg.get_price(ids='ethereum', vs_currencies='usd')['ethereum']['usd']
 st.write('''# Ethereum Calculator''')
